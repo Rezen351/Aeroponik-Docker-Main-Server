@@ -130,8 +130,7 @@ pids
 .env.production.local
 
 # Supabase
-supabase-project/
-./supabase
+supabase-project/volumes/db/data
 
 # Docker
 .dockerignore
