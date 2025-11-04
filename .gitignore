@@ -132,6 +132,11 @@ pids
 # Supabase
 supabase-project/volumes/db/data
 
+# Influxdb
+supabase-project/volumes/influxdb/data
+
+# Grafana
+supabase-project/volumes/grafana/data
 # Docker
 .dockerignore
 
