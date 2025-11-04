@@ -636,7 +636,7 @@ services:
     environment:
       FLASK_APP: app.py
       FLASK_DEBUG: "1"
-      SUPABASE_URL: http://kong:8000
+      SUPABASE_URL: https://studio.almuzky.my.id/
       SUPABASE_ANON_KEY: ${ANON_KEY}
       SUPABASE_SERVICE_ROLE_KEY:  ${SERVICE_ROLE_KEY}
       TZ: Asia/Jakarta
